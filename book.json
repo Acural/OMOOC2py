@@ -7,5 +7,7 @@
         "disqus",
         "评论"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+    "short name":"acuralstalk"
+    }
 }
