@@ -1,8 +1,9 @@
 from sys import argv
 script , filename = argv
 
-line1 = raw_input ("let's start writing")
+print "let's start writing"
+line1 = raw_input ()
 
-target = open(filename)
+target = open(filename,'w')
 target.write(line1)
 target.write("\n")
