@@ -1,4 +1,5 @@
-#-*- coding: utf-8-*-
+
+# -*- coding: utf-8 -*-
 #Quick Python Script Explanation for Progeammers
 #给程序员的超快速Py脚本解说
 import os
