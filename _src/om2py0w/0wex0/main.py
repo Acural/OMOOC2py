@@ -1,40 +1,39 @@
-
-# -*- coding: utf-8 -*-
+ï»¿#-*- coding: utf-8 -*-
 #Quick Python Script Explanation for Progeammers
-#ç»™ç¨‹åºå‘˜çš„è¶…å¿«é€ŸPyè„šæœ¬è§£è¯´
+#¸ø³ÌĞòÔ±µÄ³¬¿ìËÙPy½Å±¾½âËµ.........
 import os
 
 def main():
     print 'Hello World:'
 	
-    print "è¿™æ˜¯Alice\çš„é—®å€™."
-    print 'è¿™æ˜¯Bob\ â€˜çš„é—®å€™'
+    print "ÕâÊÇAlice\µÄÎÊºò."
+    print 'ÕâÊÇBob\ ¡®µÄÎÊºò'
 
     foo(5,10)
 
     print '=' * 10
-    print 'è¿™å°†ç›´æ¥æ‰§è¡Œ'+os.getcwd()
+    print 'Õâ½«Ö±½ÓÖ´ĞĞ'+os.getcwd()
 
     counter = 0
     counter += 1 
     
-    food = ['è‹¹æœ','æå­','æå­','æ¢¨']
+    food = ['Æ»¹û','ĞÓ×Ó','Àî×Ó','Àæ']
     for i in food :
-        print 'ä¿ºå°±çˆ±æ•´åª:'+i 
+        print '°³¾Í°®ÕûÖ»:'+i 
 
-    print 'æ•°åˆ°10'
+    print 'Êıµ½10'
     for i in range(10):
         print i 
 
 def foo(param1, secondParam):
     res = param1+secondParam
-    print '%s åŠ  %s ç­‰äº %s'%(param1, secondParam, res)
+    print '%s ¼Ó %s µÈÓÚ %s'%(param1, secondParam, res)
     if res < 50:
-	    print 'è¿™ä¸ª'
+	    print 'Õâ¸ö'
     elif (res>=50) and ((param1==42) or (secondParam==24)):
-	    print 'é‚£ä¸ª'
+	    print 'ÄÇ¸ö'
     else:
-	    print 'å—¯ã€‚ã€‚ã€‚'
+	    print 'àÅ¡£¡£¡£'
     return res 
 	
 
